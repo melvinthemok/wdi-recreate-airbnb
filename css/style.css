@@ -1,0 +1,89 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: Karla, sans-serif;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: #EDEFEC;
+  color: #696969;
+}
+
+.intro {
+  margin: 40px 0 0 0;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.container {
+  margin: 5px 0 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.sf,
+.nyc,
+.ldn,
+.np,
+.snm,
+.sf2 {
+  width: 250px;
+  height: 250px;
+  margin: 25px 25px 0 25px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.citytext {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 900;
+  margin: -150px 0 0 0;
+}
+
+.click {
+  border: 1px solid #696969;
+  border-radius: 2px;
+  background-color: #e2e2e2;
+  width: 250px;
+  height: 50px;
+  margin: 50px auto 50px auto;
+}
+
+.click:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.clicktext {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 14px auto;
+}
+
+@media (max-width: 900px) {
+
+  .sf,
+  .nyc,
+  .ldn,
+  .np,
+  .snm,
+  .sf2 {
+    width: 900px;
+  }
+}
